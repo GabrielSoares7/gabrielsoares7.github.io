@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+}
+
+.videoback {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#logo {
+    border-radius: 0px 0px 30px 30px;
+    background-color: rgba(0, 0, 0, .25);
+
+}
+
+#colPlacar {
+    background-color: rgba(0, 0, 0, .45);
+    border-radius: 10px;
+}
+
+#vencedor {
+    background-color: rgba(0, 0, 0, .45);
+    color: white;
+    border-radius: 10px;
+    padding: 3%;
+    margin: 5%;
+    text-decoration: underline;
+    font-size: 30pt;
+}
+
+#placar, #cobrir {
+    color: white;
+}
+
+#cobrir {
+    margin: 0;
+    background: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
