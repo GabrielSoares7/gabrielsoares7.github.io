@@ -2,7 +2,7 @@ var rest = [];
 var indexTable = 0;
 
 
-for(i = 1; i <= 90; i++) {
+for(i = 1; i <= 75; i++) {
     rest[i - 1] = {sorteado:false, valor:i};
 }
 
@@ -18,7 +18,7 @@ function start() {
     index = Math.floor(Math.random() * rest.length);
     while(rest[index].sorteado) {
         index++;
-        if(index > 90)
+        if(index > 75)
             index = 0;
     }
 
